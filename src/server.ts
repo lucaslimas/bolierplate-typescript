@@ -2,6 +2,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 
 import { routes } from './routes';
+import beforeShutdown from './shutdown';
 
 dotenv.config();
 
@@ -18,3 +19,7 @@ server.listen(process.env.PORT, () => {
 });
 
 server.use(routes);
+
+beforeShutdown(async () => {
+  console.log('Service was Finished');
+});
