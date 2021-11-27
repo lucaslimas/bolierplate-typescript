@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
-import { testRoutes } from './resources/test/test.routes';
+import { createUserController } from './useCases/users/createUser';
 
 const routes = Router();
 
-routes.use(testRoutes);
+routes.post('/', createUserController.handle);
 
 export { routes };

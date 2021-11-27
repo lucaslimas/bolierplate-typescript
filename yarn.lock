@@ -52,6 +52,23 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@prisma/client@^3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.4.2.tgz#36b8da0d788e4f5dc7c4a5e83a9f83b0e2bfbb1a"
+  integrity sha512-HyQGq9m1V99zpNSJ/FojZJnvzqWUd18ErIXwxLzSuurS23XlhHEPtxgpxJaegBmjsr/KCYqcXFOPmM1gRLpI0w==
+  dependencies:
+    "@prisma/engines-version" "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
+
+"@prisma/engines-version@3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9":
+  version "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9.tgz#ad922c461baea416ec26ad33a144c70ae7e997d4"
+  integrity sha512-H8bnBT5jLap+0nULBAGjf+xb5XNn4d60U4J9cck+UanyEkeMS3aYCeHvNiQl46XwvN60jkUX8BwV3NOEmPh0SQ==
+
+"@prisma/engines@3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9":
+  version "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9.tgz#8e5534bfe255210c29b5181f694c9acd32d558c2"
+  integrity sha512-NO4Q88k3CfUpYzfpDD+0wSVCqhaeljCFAGSe1XyvmXAOlMU2AAjCwmRn6S4UXlT9yEGB/LwFjdvGjcgfUQ+Mtw==
+
 "@types/body-parser@*":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.1.tgz#0c0174c42a7d017b818303d4b5d969cb0b75929c"
@@ -106,6 +123,13 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
   integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
 
+"@types/nodemailer@^6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.4.4.tgz#c265f7e7a51df587597b3a49a023acaf0c741f4b"
+  integrity sha512-Ksw4t7iliXeYGvIQcSIgWQ5BLuC/mljIEbjf615svhZL10PE9t+ei8O9gDaD3FPCasUJn9KTLwz2JFJyiiyuqw==
+  dependencies:
+    "@types/node" "*"
+
 "@types/qs@*":
   version "6.9.7"
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
@@ -133,6 +157,11 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
   integrity sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==
+
+"@types/uuid@^8.3.1":
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.1.tgz#1a32969cf8f0364b3d8c8af9cc3555b7805df14f"
+  integrity sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==
 
 "@typescript-eslint/eslint-plugin@^5.2.0":
   version "5.2.0"
@@ -1382,6 +1411,11 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
+nodemailer@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.7.0.tgz#86614722c4e0c33d1b5b02aecb90d6d629932b0d"
+  integrity sha512-AtiTVUFHLiiDnMQ43zi0YgkzHOEWUkhDgPlBXrsDzJiJvB29Alo4OKxHQ0ugF3gRqRQIneCLtZU3yiUo7pItZw==
+
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
@@ -1540,6 +1574,13 @@ prettier@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+
+prisma@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.4.2.tgz#d09e983f30fed579ddb1bb60adb369db732e3de5"
+  integrity sha512-wOD1lni7MfH/Qkp5SAkUthLKG+pQcpD31Nm8nAKj9ESgqId/dy+JDSTYOuk/pySvFyby/A+bsAPWIaVmo7qqhQ==
+  dependencies:
+    "@prisma/engines" "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
 
 progress@^2.0.0:
   version "2.0.3"
@@ -1913,6 +1954,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
